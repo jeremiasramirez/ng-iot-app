@@ -11,8 +11,7 @@ import { PagesModule } from './pages/pages-module/pages-module.module';
   ],
   imports: [
     BrowserModule,
-    PagesModule,
-    NoopAnimationsModule
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
