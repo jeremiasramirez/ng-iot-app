@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { PagesModule } from './pages/pages-module/pages-module.module';
+import { PagesModule } from './pages/pages-module.module';
+
 
 @NgModule({
   declarations: [
