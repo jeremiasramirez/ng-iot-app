@@ -12,9 +12,7 @@ import { IconSpinnerComponent } from './icon-spinner/icon-spinner.component'
 @NgModule({
   declarations: [
     
-  FanComponent,
-  LightComponent,
-  ConditionerComponent,
+
   TvComponent,
   IconComponent,
   IconSpinnerComponent
@@ -28,10 +26,7 @@ import { IconSpinnerComponent } from './icon-spinner/icon-spinner.component'
   
   ],
   exports: [
-    
-    FanComponent,
-    LightComponent,
-    ConditionerComponent,
+
     TvComponent,
     MatButtonModule 
 

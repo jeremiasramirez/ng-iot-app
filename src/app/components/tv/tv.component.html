@@ -1,21 +1,28 @@
 
 <section class="tv">
     
+    <!-- banner -->
     <article class="banner__tv">
 
         <div class="title">
-            Home TV
+            {{ title }}
         </div>
 
         <div class="container__more">
             <app-icon iconRoute="../../../assets/icons/more.svg"></app-icon> 
         </div>
 
-
-
     </article>
 
 
+    <!-- poster -->
+    <article class="container__poster">
+        
+        <div class="poster">
+            <img *ngIf="routeImage" [src]="routeImage" alt="tv">
+        </div>
+
+    </article>
 
 
 </section>

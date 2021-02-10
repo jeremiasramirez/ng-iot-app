@@ -1,6 +1,6 @@
 .tv{
     width: 300px;
-    height: 400px;
+    height: 500px;
     border-radius: 7px;
     margin:20px;
     border:none;
@@ -24,4 +24,25 @@
     border-bottom-right-radius: 8px;
     font-weight: 550;
 }
- 
+.poster{
+    border-radius: 50%;
+    width:152px;
+    height:152px;
+    box-shadow: -10px 10px 18px rgb(112, 64, 32);
+    padding: 3px;
+    background-color:white;
+}
+.poster img{
+    transform: scale(.7);
+    width:150px;
+}
+
+
+.container__poster{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height:200px;
+
+}
