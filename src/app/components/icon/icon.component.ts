@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input} from '@angular/core';
 
 @Component({
   selector: 'app-icon',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./icon.component.css']
 })
 export class IconComponent implements OnInit {
-
+  @Input() iconRoute:string = '';
   constructor() { }
 
   ngOnInit(): void {

@@ -16,11 +16,12 @@
 
 .title{
     background-color: rgb(32, 32, 34);
-    padding:8px 10px;
+    padding:8px 15px;
     font-family: monospace;
-    color: white;
+    color: white; 
     font-size:16.8px;
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
     font-weight: 550;
 }
+ 
