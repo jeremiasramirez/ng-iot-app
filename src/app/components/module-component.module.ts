@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule } from "@angular/material/button";
-import { FanComponent } from './fan/fan.component';
-import { LightComponent } from './light/light.component';
-import { ConditionerComponent } from './conditioner/conditioner.component';
 import { TvComponent } from './tv/tv.component';
 import { IconComponent } from './icon/icon.component';
 import { IconSpinnerComponent } from './icon-spinner/icon-spinner.component'
- 
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatSliderModule} from '@angular/material/slider';
+
 
 @NgModule({
   declarations: [
@@ -20,15 +19,18 @@ import { IconSpinnerComponent } from './icon-spinner/icon-spinner.component'
 ],
 
   imports: [
-
+    MatSlideToggleModule,
     CommonModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSliderModule
+    
   
   ],
   exports: [
-
+    MatSlideToggleModule,
     TvComponent,
-    MatButtonModule 
+    MatButtonModule,
+    MatSliderModule 
 
   ]
 })

@@ -1,6 +1,6 @@
 
-<section class="tv">
-    
+<section class="tv" [ngClass]="[classColors]">
+   
     <!-- banner -->
     <article class="banner__tv">
 
@@ -25,4 +25,39 @@
     </article>
 
 
+
+    <!-- controls -->
+
+    <article class="controls">
+        <h1>On</h1>
+        <mat-slide-toggle color="tertiary"></mat-slide-toggle>
+    </article>
+
+
+    <article class="controls">
+        <h1>Thermal</h1>
+        <p>32 C</p>
+    </article>
+
+
+    <article class="controls" *ngIf="!isFan">
+        <h1>Information</h1>
+        <app-icon iconRoute="../../../assets/icons/next.png"></app-icon>
+    </article>
+
+    <article class="controls" *ngIf="isFan">
+        <h1>Power</h1>
+        <mat-slider 
+      
+        thumbLabel
+        tickInterval="1000"
+        [displayWith]="formatLabel"
+        min="0"
+        max="32"
+        ></mat-slider>
+    </article>
+
+
+  
+      
 </section>

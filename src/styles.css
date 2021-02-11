@@ -2,3 +2,16 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.first{
+   background-image: linear-gradient(to bottom, rgba(231, 97, 19, 0.966),rgba(226, 150, 64, 0.966))
+}
+
+.second{
+    background-image: linear-gradient(to bottom, rgba(52, 118, 218, 0.966),rgba(75, 24, 156, 0.966))
+ }
+
+ .third{
+    background-image: linear-gradient(to bottom, rgba(218, 36, 163, 0.966),rgba(133, 22, 127, 0.966))
+ }
