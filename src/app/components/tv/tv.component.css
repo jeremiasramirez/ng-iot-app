@@ -38,9 +38,9 @@
 .poster img{
     transform: scale(.7);
     width:150px;
+    
 }
-
-
+ 
 .container__poster{
     display:flex;
     justify-content: center;

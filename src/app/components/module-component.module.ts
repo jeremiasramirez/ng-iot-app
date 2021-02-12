@@ -6,6 +6,7 @@ import { IconComponent } from './icon/icon.component';
 import { IconSpinnerComponent } from './icon-spinner/icon-spinner.component'
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatSliderModule} from '@angular/material/slider';
+import { BannerHomeComponent } from './banner-home/banner-home.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import {MatSliderModule} from '@angular/material/slider';
 
   TvComponent,
   IconComponent,
-  IconSpinnerComponent
+  IconSpinnerComponent,
+  BannerHomeComponent
 
 ],
 
@@ -23,14 +25,13 @@ import {MatSliderModule} from '@angular/material/slider';
     CommonModule,
     MatButtonModule,
     MatSliderModule
-    
-  
   ],
   exports: [
     MatSlideToggleModule,
     TvComponent,
     MatButtonModule,
-    MatSliderModule 
+    MatSliderModule ,
+    BannerHomeComponent
 
   ]
 })
