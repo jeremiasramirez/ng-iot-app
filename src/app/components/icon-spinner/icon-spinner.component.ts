@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-icon-spinner',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./icon-spinner.component.css']
 })
 export class IconSpinnerComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit(): void {

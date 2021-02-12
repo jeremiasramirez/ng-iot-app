@@ -1,0 +1,13 @@
+img{
+    width:22px;
+    height:22px;
+    animation: load 1s infinite linear;
+    transition:1s;
+}
+
+@keyframes load{
+    from{
+        transition:1s;
+        transform: rotate(-360deg);
+    }
+}
