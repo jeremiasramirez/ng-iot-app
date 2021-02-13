@@ -31,6 +31,7 @@ import { BannerHomeComponent } from './banner-home/banner-home.component';
     TvComponent,
     MatButtonModule,
     MatSliderModule ,
+    IconSpinnerComponent,
     BannerHomeComponent
 
   ]

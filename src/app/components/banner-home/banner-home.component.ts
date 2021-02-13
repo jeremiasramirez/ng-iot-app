@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { timer } from 'rxjs';
+import { Observable, timer } from 'rxjs';
 
 @Component({
   selector: 'app-banner-home',
@@ -9,21 +9,24 @@ import { timer } from 'rxjs';
 export class BannerHomeComponent implements OnInit {
   
   public isLoading:boolean=true;
-  private timerLoading =  timer(2000);
-
+  private timerLoading :Observable<any> = new Observable;
 
   constructor() { }
 
   ngOnInit(): void {
 
+    this.timerLoading=timer(3000);
     this.changeLoading()
   
   }
-
+   
+ 
   private changeLoading():void{
+
     this.timerLoading.subscribe(()=>{
       this.isLoading = false;
     })
+
   }
 
 
