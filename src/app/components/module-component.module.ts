@@ -7,6 +7,7 @@ import { IconSpinnerComponent } from './icon-spinner/icon-spinner.component'
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatSliderModule} from '@angular/material/slider';
 import { BannerHomeComponent } from './banner-home/banner-home.component';
+import { LogoStartComponent } from './logo-start/logo-start.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { BannerHomeComponent } from './banner-home/banner-home.component';
   TvComponent,
   IconComponent,
   IconSpinnerComponent,
-  BannerHomeComponent
+  BannerHomeComponent,
+  LogoStartComponent
 
 ],
 
@@ -32,7 +34,8 @@ import { BannerHomeComponent } from './banner-home/banner-home.component';
     MatButtonModule,
     MatSliderModule ,
     IconSpinnerComponent,
-    BannerHomeComponent
+    BannerHomeComponent,
+    LogoStartComponent
 
   ]
 })
