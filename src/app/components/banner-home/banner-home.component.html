@@ -1,7 +1,59 @@
 
 <!-- wifi -->
 <article class="item__banner">
-    <!-- <app-icon-spinner></app-icon-spinner> -->
-    <p class="item__banner__title">TCP Link </p>
-    <app-icon iconRoute="../../../assets/icons/wifi.svg"></app-icon>
+
+    <app-icon-spinner *ngIf="isLoading"></app-icon-spinner>
+
+    <p class="item__banner__title" *ngIf="!isLoading">TCP Link </p>
+    
+    <button color="primary" mat-button>        
+        <app-icon iconRoute="../../../assets/icons/wifi.svg"></app-icon>
+    </button>
+
+</article>
+
+
+
+
+<!-- notification -->
+<article class="item__banner">
+    <button  color="primary" mat-button>
+        <app-icon iconRoute="../../../assets/icons/notification.svg"></app-icon>
+    </button>
+</article>
+
+
+<!-- heat -->
+<article class="item__banner">
+    <button  color="primary" mat-button>
+        <app-icon iconRoute="../../../assets/icons/heat.svg"></app-icon>
+    </button>
+</article>
+
+
+
+<!-- energy -->
+<article class="item__banner">
+    <button  color="primary" mat-button>
+        <app-icon iconRoute="../../../assets/icons/lighting.svg"></app-icon>
+    </button>
+</article>
+
+
+
+<!-- settings -->
+<article class="item__banner">
+    <button  color="primary" mat-button>
+        <app-icon iconRoute="../../../assets/icons/settings.svg"></app-icon>
+    </button>
+    
+</article>
+
+
+
+<!-- power -->
+<article class="item__banner">
+    <button  color="primary" mat-button>
+         <app-icon iconRoute="../../../assets/icons/power-button.svg"></app-icon>
+    </button>
 </article>

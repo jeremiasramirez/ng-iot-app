@@ -9,7 +9,12 @@
 
 .container__banner{
     display:flex;
+    background-color: #F6F1F8;
     justify-content: flex-end;
+    height: 75px;
+    flex-direction: row;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     align-items: center;
     margin-bottom: 30px;
 }

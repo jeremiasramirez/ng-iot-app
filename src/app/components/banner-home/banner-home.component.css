@@ -1,12 +1,17 @@
 .item__banner{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 190px;
+    margin:8px 1px;
+    height: 70px;
 }
 
 .item__banner__title{
     font-family: helvetica;
     font-weight: 550;
     font-size:15.2px;
+}
+button{
+    padding-bottom: -12px !important;
+    width:28px !important;
 }
