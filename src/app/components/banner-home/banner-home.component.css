@@ -1,0 +1,12 @@
+.item__banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+}
+
+.item__banner__title{
+    font-family: helvetica;
+    font-weight: 550;
+    font-size:15.2px;
+}

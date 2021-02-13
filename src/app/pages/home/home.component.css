@@ -5,3 +5,11 @@
     flex-wrap:wrap;
     padding: 0 30px;
 }
+
+
+.container__banner{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
